@@ -9,19 +9,27 @@
 
 .heroback {
 
-    background-image: url("backround.png");
+    background-image: url("../img/backround.png");
     background-repeat: no-repeat;
     background-size: 100vw 1080px;
    
 }
 
 .navbar {
-
     position: fixed;
     top: 0;
     width: 100%;
-
 }
+
+.nav{
+  margin-left: 1% !important;
+  margin-right: 1% !important;
+}
+
+.navbar-brand{
+  height: 10vh;
+}
+
 .wolf {
 
     font-size: 90px;
@@ -36,7 +44,10 @@
 
     color: white;
 
-    margin-left: 5%;
+    margin-left: 6%;
     margin-top: 15%;
 
 }
+
+
+
