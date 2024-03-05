@@ -1,0 +1,13 @@
+@font-face {
+
+    font-family: MinecraftTen;
+    src: url(fonts/MCTEN.ttf);
+
+}
+
+
+.logo {
+    margin-left: 35px;
+    width: 80px;
+    height: 100vh;
+}

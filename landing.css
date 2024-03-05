@@ -1,0 +1,42 @@
+
+
+@font-face {
+
+    font-family: MinecraftTen;
+    src: url(fonts/MCTEN.ttf);
+
+}
+
+.heroback {
+
+    background-image: url("backround.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 1080px;
+   
+}
+
+.navbar {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+.wolf {
+
+    font-size: 90px;
+    margin-top: 25px;
+
+}
+
+.tagline {
+
+    font-family: MinecraftTen;
+    font-size: 100px;
+
+    color: white;
+
+    margin-left: 5%;
+    margin-top: 15%;
+
+}
