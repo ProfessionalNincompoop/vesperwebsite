@@ -30,7 +30,7 @@
 
 .minecraftNav {
     font-family: chatBold;
-    font-size: 35px;
+    font-size: 2vw;
 
     
     -webkit-text-stroke: 4px;
@@ -51,12 +51,26 @@
 .tagline {
 
     font-family: MinecraftTen;
-    font-size: 100px;
+    font-size: 120px;
 
     color: white;
 
-    margin-left: 6%;
-    margin-top: 15%;
+    margin-left: 5%;
+    margin-top: 10%;
+
+}
+
+
+
+.discordBtnText {
+
+    height: 40px;
+    width: 405px;
+
+    font-family: chatBold;
+    font-style: italic;
+    font-size:150%;  
+
 
 }
 
