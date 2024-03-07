@@ -3,8 +3,15 @@
 @font-face {
 
     font-family: MinecraftTen;
-    src: url(fonts/MCTEN.ttf);
+    src: url(../fonts/MCTEN.ttf);
 
+}
+
+@font-face {
+
+    font-family: chatBold;
+    src: url(../fonts/chatBold.otf);
+    /* fonts public domain so we should be okie */
 }
 
 .heroback {
@@ -21,6 +28,17 @@
     width: 100%;
 }
 
+.minecraftNav {
+    font-family: chatBold;
+    font-size: 35px;
+
+    
+    -webkit-text-stroke: 4px;
+    -webkit-text-stroke-color: #686868;
+    paint-order: stroke fill;
+
+}
+
 .nav{
   margin-left: 1% !important;
   margin-right: 1% !important;
@@ -28,13 +46,6 @@
 
 .navbar-brand{
   height: 10vh;
-}
-
-.wolf {
-
-    font-size: 90px;
-    margin-top: 25px;
-
 }
 
 .tagline {
