@@ -4,7 +4,10 @@
 
     font-family: MinecraftTen;
     src: url(../fonts/MCTEN.ttf);
+    /* fonts freeware but non commerical, id like to get a public domain one (or make one myself and then i dont have to deal with liceneses), 
+    but we can legally recieve donations in exange for perks (so incentives) aslong as it isnt a "product" that you recieve with money */
 
+    /* Commerical license is also only 15 dollars if we wanna go that route and not deal with legal bullshit */
 }
 
 @font-face {
