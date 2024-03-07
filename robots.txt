@@ -1,0 +1,3 @@
+# this single file boosts SEO, MASSIVELY 
+User-agent: *
+Disallow:
