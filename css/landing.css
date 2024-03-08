@@ -34,12 +34,14 @@
 .minecraftNav {
     font-family: chatBold;
     font-size: 2vw;
-
     
-    -webkit-text-stroke: 4px;
-    -webkit-text-stroke-color: #686868;
-    paint-order: stroke fill;
 
+    text-shadow: -2px -2px 0 #686868, 2px -2px 0 #686868, -2px 2px 0 #686868, 2px 2px 0 #686868;
+    
+ /*   -webkit-text-stroke: 0.1em;
+    -webkit-text-stroke-color: #686868;
+    -webkit-text-stroke-width: 2px;
+    */
 }
 
 .nav{
