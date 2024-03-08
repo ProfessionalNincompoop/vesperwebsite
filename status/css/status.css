@@ -1,0 +1,46 @@
+.backround {
+    background-color: #181818;
+}
+
+@font-face {
+
+    font-family: MinecraftTen;
+    src: url(../../fonts/MCTEN.ttf);
+    /* fonts freeware but non commerical, id like to get a public domain one (or make one myself and then i dont have to deal with liceneses), 
+    but we can legally recieve donations in exange for perks (so incentives) aslong as it isnt a "product" that you recieve with money */
+
+    /* Commerical license is also only 15 dollars if we wanna go that route and not deal with legal bullshit */
+}
+
+@font-face {
+
+    font-family: chatBold;
+    src: url(../fonts/chatBold.otf);
+    /* fonts public domain so we should be okie */
+}
+
+.tpsText{
+    font-family: MinecraftTen;
+    color: white;
+    font-size: 100px;
+    
+}
+
+
+
+.progress-bar {
+    margin-top: 10%;
+    margin-left: 5%;
+
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, #181818 79%, transparent 80% 100%),
+      conic-gradient(#8de35d 85%, #4A4A4A 0);    
+  }
+  
+.resourceInfo {
+    font-family: chatBold;
+    
+}
