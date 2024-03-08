@@ -15,7 +15,7 @@
 @font-face {
 
     font-family: chatBold;
-    src: url(../fonts/chatBold.otf);
+    src: url(../../fonts/chatBold.otf);
     /* fonts public domain so we should be okie */
 }
 
@@ -42,5 +42,11 @@
   
 .resourceInfo {
     font-family: chatBold;
-    
+    font-size: 250%;
+    color: white;
+
+    text-align:left;
+    margin-left: 8.5%;
+    margin-top: 3%;
+
 }
