@@ -17,16 +17,24 @@
     /* fonts public domain so we should be okie */
 }
 
-.heroback {
-
-    background-image: url("../img/backround.png");
+.ctaback {
+    background-image: url("../img/cta.png");
     background-repeat: no-repeat;
     background-size: 100vw 1080px;
    
 }
 
+.faqback {
+
+    background-image: url("../img/faq.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 1080px;
+    margin-top: 400px;
+   
+}
+
 .navbar {
-    position: fixed;
+    position:static;
     top: 0;
     width: 100%;
 }
@@ -42,6 +50,12 @@
     -webkit-text-stroke-color: #686868;
     -webkit-text-stroke-width: 2px;
     */
+}
+.footer {
+    position: fixed;
+    bottom: 100%;
+    height: 70px;
+
 }
 
 .nav{
@@ -62,6 +76,16 @@
 
     margin-left: 5%;
     margin-top: 10%;
+
+}
+
+.faqText {
+    position: inherit;
+    font-family: MinecraftTen;
+    font-size: 120px;
+
+    color: white;
+    text-align: center;
 
 }
 
