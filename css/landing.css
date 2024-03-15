@@ -70,7 +70,7 @@
 .tagline {
 
     font-family: MinecraftTen;
-    font-size: 120px;
+    font-size: 130px;
 
     color: white;
 
@@ -94,11 +94,13 @@
 .discordBtnText {
 
     height: 40px;
-    width: 405px;
+    width: 250px;
 
     font-family: chatBold;
     font-style: italic;
     font-size:150%;  
+
+    letter-spacing: 1px;
 
 
 }
